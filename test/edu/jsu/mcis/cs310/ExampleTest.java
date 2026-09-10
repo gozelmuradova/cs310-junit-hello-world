@@ -49,4 +49,11 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+    @Test
+    public void testReverseMine() {
+        String input = "CS310";
+        String expected = "013SC"; // correct reversed value
+        assertEquals(expected, main.reverse(input));
+}
+    
 }
